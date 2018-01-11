@@ -1,4 +1,5 @@
 @import '../../component/nullTip/nullTip.wxss';
+
 .gallery {
     display: flex;
     flex-wrap: wrap;

@@ -64,7 +64,7 @@ page {
     background-color: #fafafa;
 }
 
-.cell-ft{
+.cell-ft {
     color: #bbb;
 }
 
@@ -79,7 +79,7 @@ page {
     height: 6px;
     width: 6px;
     border-width: 2px 2px 0 0;
-    border-color: #C8C8CD;
+    border-color: #c8c8cd;
     border-style: solid;
     transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
     position: absolute;

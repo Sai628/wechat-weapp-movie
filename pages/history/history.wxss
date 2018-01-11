@@ -1,5 +1,6 @@
 @import '../../comm/style/tab.wxss';
 @import '../../component/nullTip/nullTip.wxss';
+
 .history-film-item {
     display: flex;
     flex-direction: column;
@@ -34,7 +35,7 @@
 .history-film-cover {
     width: 300rpx;
     height: 420rpx;
-    box-shadow: 10rpx 10rpx 30rpx rgba(0, 0, 0, .2)
+    box-shadow: 10rpx 10rpx 30rpx rgba(0, 0, 0, 0.2);
 }
 
 .history-film-info {
@@ -62,7 +63,7 @@
     background-color: #fff;
     border: 1px solid #e1e1e1;
     border-radius: 20rpx;
-    box-shadow: 0 10rpx 30rpx rgba(0, 0, 0, .1);
+    box-shadow: 0 10rpx 30rpx rgba(0, 0, 0, 0.1);
 }
 
 .history-person-intro {
@@ -86,7 +87,7 @@
     height: 260rpx;
     margin-bottom: 30rpx;
     border-radius: 260rpx;
-    box-shadow: 0 20rpx 60rpx rgba(0, 0, 0, .1);
+    box-shadow: 0 20rpx 60rpx rgba(0, 0, 0, 0.1);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

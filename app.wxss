@@ -1,8 +1,8 @@
 page {
-  display: block;
-  background-color: #fff;
-  font-family: "微软雅黑";
-  font-size: 28rpx;
+    display: block;
+    background-color: #fff;
+    font-family: "微软雅黑";
+    font-size: 28rpx;
 }
 
 .loading {
@@ -22,5 +22,5 @@ page {
     color: #fff;
     text-align: center;
     font-size: 24rpx;
-    animation: bounceIn .3s;
+    animation: bounceIn 0.3s;
 }

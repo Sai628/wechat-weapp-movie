@@ -1,6 +1,7 @@
 .skin-list {
     overflow: hidden;
 }
+
 .skin-item, .skin-img {
     width: 710rpx;
     height: 360rpx;
@@ -11,7 +12,7 @@
     position: relative;
     margin: 20rpx auto;
     border-radius: 20rpx;
-    box-shadow: 0 20rpx 20rpx rgba(0, 0, 0, .2);
+    box-shadow: 0 20rpx 20rpx rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
 
@@ -54,7 +55,7 @@
     font-size: 32rpx;
     line-height: 80rpx;
     padding: 0 40rpx;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 0 0 20rpx 20rpx;
     color: #fff;
 }

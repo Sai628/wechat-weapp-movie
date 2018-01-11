@@ -1,10 +1,11 @@
 @import "../../component/message/message.wxss";
+
 .debug {
     position: fixed;
     top: 0;
     right: 0;
     padding: 40rpx;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.6);
     color: #0aff67;
 }
 
@@ -38,7 +39,7 @@
 .film-cover {
     width: 500rpx;
     height: 700rpx;
-    box-shadow: 0 60rpx 120rpx rgba(0, 0, 0, .4);
+    box-shadow: 0 60rpx 120rpx rgba(0, 0, 0, 0.4);
 }
 
 .film-intro {

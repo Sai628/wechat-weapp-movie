@@ -3,13 +3,13 @@
         <view class="form-item">
             <view class="form-item-hd">姓名</view>
             <view class="form-item-bd">
-                <input type="text" name="name" value="{{name}}" placeholder="请输入姓名" maxlength="4"/>
+                <input type="text" name="name" value="{{name}}" placeholder="请输入姓名" maxlength="4" />
             </view>
         </view>
         <view class="form-item">
             <view class="form-item-hd">昵称</view>
             <view class="form-item-bd">
-                <input type="text" name="nickName" value="{{nickName}}" placeholder="请输入昵称" maxlength="8"/>
+                <input type="text" name="nickName" value="{{nickName}}" placeholder="请输入昵称" maxlength="8" />
             </view>
         </view>
         <view class="form-item">
@@ -18,11 +18,11 @@
                 <picker mode="selector" value="{{genderIndex}}" range="{{genderArray}}" bindchange="changeGender">
                     <block wx:if="{{gender == ''}}">
                         <view class="input input-placeholder">请选择性别</view>
-                        <input type="text" name="gender" value="" class="hidden" maxlength="1"/>
+                        <input type="text" name="gender" value="" class="hidden" maxlength="1" />
                     </block>
                     <block wx:else>
                         <view class="input">{{genderArray[genderIndex]}}</view>
-                        <input type="text" name="gender" value="{{genderArray[genderIndex]}}" class="hidden" maxlength="1"/>
+                        <input type="text" name="gender" value="{{genderArray[genderIndex]}}" class="hidden" maxlength="1" />
                     </block>
                 </picker>
             </view>
@@ -30,7 +30,7 @@
         <view class="form-item">
             <view class="form-item-hd">年龄</view>
             <view class="form-item-bd">
-                <input type="number" name="age" value="{{age}}" placeholder="请输入年龄" maxlength="3"/>
+                <input type="number" name="age" value="{{age}}" placeholder="请输入年龄" maxlength="3" />
             </view>
         </view>
         <view class="form-item">
@@ -39,14 +39,14 @@
                 <picker mode="date" value="{{birthday}}" start="1900-01-01" end="{{birthdayEndDate}}" bindchange="changeBirthday">
                     <block wx:if="{{birthday == ''}}">
                         <view class="input input-placeholder">请选择生日</view>
-                        <input type="text" name="birthday" value="" class="hidden" maxlength="10"/>
+                        <input type="text" name="birthday" value="" class="hidden" maxlength="10" />
                     </block>
                     <block wx:else>
                         <view class="input">{{birthday}}</view>
-                        <input type="text" name="birthday" value="{{birthday}}" class="hidden" maxlength="10"/>
+                        <input type="text" name="birthday" value="{{birthday}}" class="hidden" maxlength="10" />
                     </block>
                 </picker>
-                
+
             </view>
         </view>
         <view class="form-item">
@@ -55,11 +55,11 @@
                 <picker mode="selector" value="{{constellationIndex}}" range="{{constellationArray}}" bindchange="changeConstellation">
                     <block wx:if="{{constellation == ''}}">
                         <view class="input input-placeholder">请选择星座</view>
-                        <input type="text" name="constellation" value="" class="hidden" maxlength="3"/>
+                        <input type="text" name="constellation" value="" class="hidden" maxlength="3" />
                     </block>
                     <block wx:else>
                         <view class="input">{{constellationArray[constellationIndex]}}</view>
-                        <input type="text" name="constellation" value="{{constellationArray[constellationIndex]}}" class="hidden" maxlength="3"/>
+                        <input type="text" name="constellation" value="{{constellationArray[constellationIndex]}}" class="hidden" maxlength="3" />
                     </block>
                 </picker>
             </view>
@@ -69,25 +69,25 @@
         <view class="form-item">
             <view class="form-item-hd">公司</view>
             <view class="form-item-bd">
-                <input type="text" name="company" value="{{company}}" placeholder="请输入公司名" maxlength="25"/>
+                <input type="text" name="company" value="{{company}}" placeholder="请输入公司名" maxlength="25" />
             </view>
         </view>
         <view class="form-item">
             <view class="form-item-hd">学校</view>
             <view class="form-item-bd">
-                <input type="text" name="school" value="{{school}}" placeholder="请输入公司名称" maxlength="25"/>
+                <input type="text" name="school" value="{{school}}" placeholder="请输入公司名称" maxlength="25" />
             </view>
         </view>
         <view class="form-item">
             <view class="form-item-hd">手机号码</view>
             <view class="form-item-bd">
-                <input type="number" name="tel" value="{{tel}}" placeholder="请输入手机号码" maxlength="11"/>
+                <input type="number" name="tel" value="{{tel}}" placeholder="请输入手机号码" maxlength="11" />
             </view>
         </view>
         <view class="form-item">
             <view class="form-item-hd">邮箱</view>
             <view class="form-item-bd">
-                <input type="text" name="email" value="{{email}}" placeholder="请输入邮箱" maxlength="25"/>
+                <input type="text" name="email" value="{{email}}" placeholder="请输入邮箱" maxlength="25" />
             </view>
         </view>
     </view>
@@ -95,7 +95,7 @@
         <view class="form-item">
             <view class="form-item-hd">个性签名</view>
             <view class="form-item-bd">
-                <input type="text" name="intro" value="{{intro}}" placeholder="请输入个性签名" maxlength="25"/>
+                <input type="text" name="intro" value="{{intro}}" placeholder="请输入个性签名" maxlength="25" />
             </view>
         </view>
     </view>

@@ -22,7 +22,7 @@
     height: 60rpx;
     border: 4rpx solid #fff;
     border-radius: 60rpx;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, 0.3);
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACHElEQVRoQ+2YfVXDMBTF71MADgAFMAdMAThgUwA42BwMB5sCQAE4YCgAHODgce5Idto0adJ26ygn+bMnee/+3lfTCga+ZOD6kQEOncGcgZyBjhHoVEKqegHgyGj4EpHPFD2qegrgpOk5n+1GAKp6DOAKwATApWNwLSKjRIA3AIQvricASxF5TrFh9yQDqOotgBkAQoTWWERe6wSoKsFfavasAdzH7CQDmKg/eiLu0/ANYBQqJVM6jH5dEKzdmYjMY9mozYCpcUYrxaH1RQg6fyg6T8ygq5dlNRUR2vSuIEBL8a4T29Rs2raLJcXS9EJ4AXYkvq1g37nggKgAmJpn2bhTYpeC2tjihJq6B30AbNjrNh56OMPptCj6KQGoKoUT4C8vTjn2xWZtAUzpfDScOIcA5WAgxKapiwBLADeHUNTC51xE+FL9BTAvGEZ/SOuML0wLwBcVrwDnAyF4582AZeT2wBAgtuJLPWBKKSUTNLCvTMVsl8RXABIgVrzyRm6TXapwbK7qvmFSEe8FqIFYicgk4TrcCYDXaFV1J6JXfBDAA7ERb57H7vOdAYwfCxEUXwtQgLizM7dPAOOLs37R6jodCmMfJdQkhcmflNZoBqgPb/Sb2j2eM9CkXhP25gxEg5SbODdxOQJ5CkWbptmGPIWi8foPU4hfbfv6a8dfiMEfub7oNm7iaIp63pABeg54xV3OQM5AxwgMvoR+AMyi8zFvBJhOAAAAAElFTkSuQmCC);
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@
 .user-nickname {
     color: #fff;
     font-size: 40rpx;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, .6);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
 }
 
 .user-sex-male, .user-sex-female {
@@ -57,13 +57,13 @@
     width: 200rpx;
     height: 200rpx;
     border-radius: 200rpx;
-    box-shadow: 0 0 300rpx 100rpx rgba(255, 255, 255, .2), 0 1px 0 rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 300rpx 100rpx rgba(255, 255, 255, 0.2), 0 1px 0 rgba(255, 255, 255, 0.4);
 }
 
 .user-location {
     font-size: 24rpx;
     color: #eee;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, .6);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
 }
 
 .grids {
@@ -80,6 +80,7 @@
     z-index: 99;
     background-color: #ccc;
 }
+
 .grids::before, .grid::before {
     left: 0;
     width: 100%;

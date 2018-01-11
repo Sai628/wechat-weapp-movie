@@ -1,5 +1,6 @@
 @import "../../component/filmList/filmList.wxss";
 @import "../../component/message/message.wxss";
+
 .search-bar {
     box-sizing: border-box;
     position: fixed;
@@ -11,7 +12,7 @@
     padding: 10rpx;
     background-color: #eee;
     text-align: center;
-    box-shadow: 0 10rpx 60rpx rgba(0, 0, 0, .3);
+    box-shadow: 0 10rpx 60rpx rgba(0, 0, 0, 0.3);
 }
 
 .search-txt {

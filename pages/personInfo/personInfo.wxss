@@ -1,4 +1,5 @@
 @import '../../component/list/list.wxss';
+
 page::after {
     content: '';
     display: block;

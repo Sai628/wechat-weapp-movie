@@ -34,8 +34,8 @@
 <block wx:else>
     <view class="welcome" style="background-image: url({{shakeWelcomeImg}})"></view>
 </block>
-<import src="../../component/message/message.wxml"/>
-<template is="message" data="{{message: message}}"/>
+<import src="../../component/message/message.wxml" />
+<template is="message" data="{{message: message}}" />
 <!-- 摇一摇音效 -->
 <audio src="{{shakeSoundUrl}}" id="shakeSound"></audio>
 <audio src="{{shakeCompleteSoundUrl}}" id="shakeCompleteSound"></audio>

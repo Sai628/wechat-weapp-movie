@@ -1,5 +1,5 @@
 module.exports = {
-    show: function(cfg) {
+    show: function (cfg) {
         var that = this
         that.setData({
             message: {
@@ -9,7 +9,7 @@ module.exports = {
             }
         })
         if (typeof cfg.duration !== 'undefined') {
-            setTimeout(function(){
+            setTimeout(function () {
                 that.setData({
                     message: {
                         visiable: false
@@ -18,7 +18,7 @@ module.exports = {
             }, cfg.duration)
         }
     },
-    hide: function() {
+    hide: function () {
         var that = this
         that.setData({
             message: {
